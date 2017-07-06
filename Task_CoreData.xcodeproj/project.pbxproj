@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0442E5321F0E1C1E00C1E64E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442E5311F0E1C1E00C1E64E /* AppDelegate.swift */; };
-		0442E5341F0E1C1E00C1E64E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442E5331F0E1C1E00C1E64E /* ViewController.swift */; };
+		0442E5341F0E1C1E00C1E64E /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442E5331F0E1C1E00C1E64E /* AddTaskViewController.swift */; };
 		0442E5371F0E1C1E00C1E64E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0442E5351F0E1C1E00C1E64E /* Main.storyboard */; };
 		0442E53A1F0E1C1E00C1E64E /* Employee_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0442E5381F0E1C1E00C1E64E /* Employee_CoreData.xcdatamodeld */; };
 		0442E53C1F0E1C1E00C1E64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0442E53B1F0E1C1E00C1E64E /* Assets.xcassets */; };
 		0442E53F1F0E1C1E00C1E64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0442E53D1F0E1C1E00C1E64E /* LaunchScreen.storyboard */; };
+		0442E54B1F0E245F00C1E64E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442E54A1F0E245F00C1E64E /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0442E52E1F0E1C1E00C1E64E /* Employee_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Employee_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0442E52E1F0E1C1E00C1E64E /* Task_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0442E5311F0E1C1E00C1E64E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0442E5331F0E1C1E00C1E64E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0442E5331F0E1C1E00C1E64E /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		0442E5361F0E1C1E00C1E64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0442E5391F0E1C1E00C1E64E /* Employee_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Employee_CoreData.xcdatamodel; sourceTree = "<group>"; };
 		0442E53B1F0E1C1E00C1E64E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0442E53E1F0E1C1E00C1E64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0442E5401F0E1C1E00C1E64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0442E54A1F0E245F00C1E64E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		0442E5251F0E1C1E00C1E64E = {
 			isa = PBXGroup;
 			children = (
-				0442E5301F0E1C1E00C1E64E /* Employee_CoreData */,
+				0442E5301F0E1C1E00C1E64E /* Task_CoreData */,
 				0442E52F1F0E1C1E00C1E64E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,33 @@
 		0442E52F1F0E1C1E00C1E64E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0442E52E1F0E1C1E00C1E64E /* Employee_CoreData.app */,
+				0442E52E1F0E1C1E00C1E64E /* Task_CoreData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0442E5301F0E1C1E00C1E64E /* Employee_CoreData */ = {
+		0442E5301F0E1C1E00C1E64E /* Task_CoreData */ = {
 			isa = PBXGroup;
 			children = (
 				0442E5311F0E1C1E00C1E64E /* AppDelegate.swift */,
-				0442E5331F0E1C1E00C1E64E /* ViewController.swift */,
+				0442E5331F0E1C1E00C1E64E /* AddTaskViewController.swift */,
 				0442E5351F0E1C1E00C1E64E /* Main.storyboard */,
+				0442E54A1F0E245F00C1E64E /* TableViewController.swift */,
 				0442E53B1F0E1C1E00C1E64E /* Assets.xcassets */,
 				0442E53D1F0E1C1E00C1E64E /* LaunchScreen.storyboard */,
 				0442E5401F0E1C1E00C1E64E /* Info.plist */,
 				0442E5381F0E1C1E00C1E64E /* Employee_CoreData.xcdatamodeld */,
 			);
+			name = Task_CoreData;
 			path = Employee_CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0442E52D1F0E1C1E00C1E64E /* Employee_CoreData */ = {
+		0442E52D1F0E1C1E00C1E64E /* Task_CoreData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0442E5431F0E1C1E00C1E64E /* Build configuration list for PBXNativeTarget "Employee_CoreData" */;
+			buildConfigurationList = 0442E5431F0E1C1E00C1E64E /* Build configuration list for PBXNativeTarget "Task_CoreData" */;
 			buildPhases = (
 				0442E52A1F0E1C1E00C1E64E /* Sources */,
 				0442E52B1F0E1C1E00C1E64E /* Frameworks */,
@@ -82,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = Employee_CoreData;
+			name = Task_CoreData;
 			productName = Employee_CoreData;
-			productReference = 0442E52E1F0E1C1E00C1E64E /* Employee_CoreData.app */;
+			productReference = 0442E52E1F0E1C1E00C1E64E /* Task_CoreData.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0442E5291F0E1C1E00C1E64E /* Build configuration list for PBXProject "Employee_CoreData" */;
+			buildConfigurationList = 0442E5291F0E1C1E00C1E64E /* Build configuration list for PBXProject "Task_CoreData" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -116,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0442E52D1F0E1C1E00C1E64E /* Employee_CoreData */,
+				0442E52D1F0E1C1E00C1E64E /* Task_CoreData */,
 			);
 		};
 /* End PBXProject section */
@@ -139,8 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0442E5341F0E1C1E00C1E64E /* ViewController.swift in Sources */,
+				0442E5341F0E1C1E00C1E64E /* AddTaskViewController.swift in Sources */,
 				0442E53A1F0E1C1E00C1E64E /* Employee_CoreData.xcdatamodeld in Sources */,
+				0442E54B1F0E245F00C1E64E /* TableViewController.swift in Sources */,
 				0442E5321F0E1C1E00C1E64E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +290,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0442E5291F0E1C1E00C1E64E /* Build configuration list for PBXProject "Employee_CoreData" */ = {
+		0442E5291F0E1C1E00C1E64E /* Build configuration list for PBXProject "Task_CoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0442E5411F0E1C1E00C1E64E /* Debug */,
@@ -294,7 +299,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0442E5431F0E1C1E00C1E64E /* Build configuration list for PBXNativeTarget "Employee_CoreData" */ = {
+		0442E5431F0E1C1E00C1E64E /* Build configuration list for PBXNativeTarget "Task_CoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0442E5441F0E1C1E00C1E64E /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0442E52D1F0E1C1E00C1E64E"
-               BuildableName = "Employee_CoreData.app"
-               BlueprintName = "Employee_CoreData"
-               ReferencedContainer = "container:Employee_CoreData.xcodeproj">
+               BuildableName = "Task_CoreData.app"
+               BlueprintName = "Task_CoreData"
+               ReferencedContainer = "container:Task_CoreData.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0442E52D1F0E1C1E00C1E64E"
-            BuildableName = "Employee_CoreData.app"
-            BlueprintName = "Employee_CoreData"
-            ReferencedContainer = "container:Employee_CoreData.xcodeproj">
+            BuildableName = "Task_CoreData.app"
+            BlueprintName = "Task_CoreData"
+            ReferencedContainer = "container:Task_CoreData.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0442E52D1F0E1C1E00C1E64E"
-            BuildableName = "Employee_CoreData.app"
-            BlueprintName = "Employee_CoreData"
-            ReferencedContainer = "container:Employee_CoreData.xcodeproj">
+            BuildableName = "Task_CoreData.app"
+            BlueprintName = "Task_CoreData"
+            ReferencedContainer = "container:Task_CoreData.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0442E52D1F0E1C1E00C1E64E"
-            BuildableName = "Employee_CoreData.app"
-            BlueprintName = "Employee_CoreData"
-            ReferencedContainer = "container:Employee_CoreData.xcodeproj">
+            BuildableName = "Task_CoreData.app"
+            BlueprintName = "Task_CoreData"
+            ReferencedContainer = "container:Task_CoreData.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
